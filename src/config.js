@@ -1,10 +1,14 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+
+  STRIPE_KEY: "pk_test_51HZPvSAi69rUKdGQ7KkRQV1Z5EKOPatbv5MuZnmpJfnGAE57ODqdDybqwMslVHian2tWKjIqBVQeyLDbPFXqF46n0049aQMtv4",
+
   s3: {
     REGION: "us-east-2",
     BUCKET: "notes-app-api-prod-serverlessdeploymentbucket-1dqhbqrqgot60"
   },
   apiGateway: {
-    REGION: "us-east-2,
+    REGION: "us-east-2",
     URL: "https://dkc0rvzeuj.execute-api.us-east-2.amazonaws.com/prod"
   },
   cognito: {
